@@ -2135,10 +2135,6 @@ module.exports = [
       to: '/protocols/saml/saml-apps/github-server'
     },
     {
-      from: '/enterprise/private-cloud/overview',
-      to: '/private-cloud'
-    },
-    {
       from: '/tokens/get-access-tokens',
       to: '/tokens/guides/access-token/get-access-tokens'
     },
