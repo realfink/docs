@@ -2165,5 +2165,13 @@ module.exports = [
     {
       from: '/authorization/guides/dashboard/enable-rbac',
       to: '/dashboard/guides/apis/enable-rbac'
+    },
+    {
+      from: '/enterprise/private-cloud/overview',
+      to: '/private-saas-deployment'
+    },
+    {
+      from: '/private-cloud',
+      to: '/private-saas-deployment'
     }
 ];
