@@ -1,29 +1,30 @@
 ---
-section: private-cloud
-description: Overview of the Private Cloud deployment options
+section: private-saas
+description: Overview of the Private SaaS deployment options
 classes: topic-page
 topics:
+    - private-saas
     - private-cloud
     - managed-private-cloud
 contentType: concept
-useCase: private-cloud
+useCase: private-saas
 ---
 <div class="topic-page-header">
   <div data-name="example" class="topic-page-badge"></div>
-  <h1>Private Cloud Deployment Models</h1>
+  <h1>Private Saas Deployment Models</h1>
   <p>
     A low-friction, dedicated Auth0 deployment that exists in Auth0's Private Cloud.
   </p>
 </div>
 
-Users with requirements not met by the Auth0 Public Cloud may instead opt for a Private Cloud option.
+Users with requirements not met by the Auth0 Public Cloud may instead opt for a Private SaaS deployment option.
 
-Auth0 currently offers two Private Cloud deployment models:
+Auth0 currently offers two Private SaaS deployment models:
 
 * [Private Cloud](/private-saas-deployment/private-cloud)
 * [**Managed** Private Cloud](/private-saas-deployment/managed-private-cloud), either hosted by Auth0 or hosted by you on an AWS environment and operated by Auth0 as a managed service
 
-Private Cloud deployments are single-tenant, isolated instances where none of a customer's resources (software and infrastructure) are shared with any other tenants. This offers increased performance, stability, and availability.
+Private SaaS deployments are single-tenant, isolated instances where none of a customer's resources (software and infrastructure) are shared with any other tenants. This offers increased performance, stability, and availability.
 
 ## Private Cloud options and comparison
 
