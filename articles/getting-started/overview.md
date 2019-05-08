@@ -12,13 +12,16 @@ useCase:
 ---
 # Auth0 Overview
 
-Auth0 provides authentication and authorization as a service.
+Auth0 provides authentication and <dfn data-key="authorization">authorization</dfn> as a service.
 
-We are here to give developers and companies the building blocks they need to secure their applications without having to become security experts.
+We are here to give developers and companies the building blocks they need to secure their applications without having to become security experts. 
 
 You can connect any application (written in any language or on any stack) to Auth0 and define the identity providers you want to use (how you want your users to log in). 
 
 Based on your app's technology, choose one of our SDKs (or call our API), and hook it up to your app. Now each time a user tries to authenticate, Auth0 will verify their identity and send the required information back to your app.
+
+## Example area
+<dfn data-key="access-management">Access Management</dfn> provides Lorem Ipsum, a simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
 ![Auth0 Overview](/media/articles/getting-started/overview.png)
 

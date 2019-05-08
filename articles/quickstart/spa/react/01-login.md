@@ -12,6 +12,9 @@ github:
 contentType: tutorial
 useCase: quickstart
 ---
+
+<dfn data-key="authorization">authorization</dfn>
+
 <%= include('../_includes/_getting_started', { library: 'React', callback: 'http://localhost:3000/callback', showLogoutInfo: true, showWebOriginInfo: true }) %>
 
 <%= include('_includes/_centralized_login') %>
