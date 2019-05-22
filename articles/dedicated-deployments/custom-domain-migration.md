@@ -1,3 +1,36 @@
+# Custom Domains Migration
+
+## Background
+
+Auth0 added support for custom domains in the PSaaS platform in January 2016. This implementation allowed PSaaS administrators to create one or more custom domains per tenant and invoke the Authentication API endpoints using those domains.
+
+In March 2018, Auth0 added support for custom domains for those deploying on the Public Cloud. However, the feature included additional capabilities not included on the PSaaS implementation. The following table summarizes the differences.
+
+| Feature | Public Cloud | Private SaaS |
+| - | - | - |
+| Use of custom domain in emails | Yes | No |
+| Custom domain protection via API keys | Yes | No |
+| Custom domain registration | Yes | Yes |
+| Token issuer used as custom domain | Yes | No |
+| Auth0-managed certificates | Yes | No |
+| Use of multiple domains | No | Yes |
+
+## Migration
+
+Current Private SaaS customers using the existing PSaaS Custom Domains functionality **must migrate to the Auth0 Custom Domains** feature to fully benefit from the features available.
+
+### Migration process
+
+The Custom Domains migration process requires several steps. In short, you will need to:
+
+* Choose the certificate management model you would like to use
+* Modify your applications to accept tokens issued with the default domain or the custom domain
+* Review that your Universal Login pages work with Auth0 Custom Domains
+* Modify your SAML/Social connections if you would like to use your custom domain in lieu of your default domain.
+* Confirm with Auth0 which type of load balancer you're using (i.e. network (layer 4) or application (layer 7))
+* Prepare your infrastructure for the migration
+* Complete the migration
+
 # Custom Domains
 
 ::: warning
